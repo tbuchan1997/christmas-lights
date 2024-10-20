@@ -1,0 +1,91 @@
+:root {
+
+    --color-one: #025ba0;
+  
+    --color-two: #9bc72b;
+  
+    --color-three: #f0c517;
+  
+    --color-four: #bf1724;
+  
+    --color-five: #5cc9f4;
+  
+    --white: #fff;
+  
+    --black: #000;
+  
+    --grey: #999;
+  
+    background: var(--black);
+  
+    color: var(--white);
+  
+  }
+  
+  
+  body {
+  
+    font-family: 'Alatsi', sans-serif;
+  
+  }
+  
+  
+  .light-bulbs {
+  
+    display: flex;
+  
+    justify-content: space-between;
+  
+    padding: 20px;
+  
+    width: 500px;
+  
+    margin: 0 auto;
+  
+  }
+  
+  
+  .light-bulb {
+  
+    border-radius: 50%;
+  
+    height: 30px;
+  
+    width: 30px;
+  
+  }
+  
+  
+  .light-bulb.color-one {
+  
+    background: var(--color-one);
+  
+  }
+  
+  
+  .light-bulb.color-two {
+  
+    background: var(--color-two);
+  
+  }
+  
+  
+  .light-bulb.color-three {
+  
+    background: var(--color-three);
+  
+  }
+  
+  
+  .light-bulb.color-four {
+  
+    background: var(--color-four);
+  
+  }
+  
+  
+  .light-bulb.color-five {
+  
+    background: var(--color-five);
+  
+  }
